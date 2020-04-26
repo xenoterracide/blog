@@ -5,7 +5,6 @@ theme = "fuji"
 PygmentsCodeFences = true
 PygmentsStyle = "manni"
 enableRobotsTXT = true
-enableGitInfo = true
 googleAnalytics = "UA-21442632-1"
 copyright = "Copyright © 2008-2017 Caleb Cushing. This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/)"
 [Params]
