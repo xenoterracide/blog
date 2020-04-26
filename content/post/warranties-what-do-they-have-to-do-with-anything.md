@@ -1,0 +1,11 @@
++++
+title = "Warranties, what do they have to do with anything?"
+date = 2010-05-21T02:11:00Z
+updated = 2010-05-21T09:07:20Z
+tags = [ "warranty", "unpopular opinion"]
+blogimport = true 
+type = "post"
++++
+
+so the whole 'open source' has no warranty thing keeps coming up as a defensible reason that I'm wrong.<br /><br />Microsoft offers a 90 day limited warranty that the software will work to some degree or another as advertised or some such. If you really want to consider what they're saying... it should work if it doesn't we can send you another disk or you can return for refund. which really is what you could have done at the store anyways. I suppose it also means it won't fry your hardware, does anyone know any stable open source software that does that? I suppose a few things could if tweaked right..<br /><br />Open Source generally doesn't distribute a physical medium, or fry peoples boxen, so what would we even use a warranty for? oh right... a CYA. We really don't want to be sued because someone downloaded our software and it didn't work or broke something of theirs.<br /><br />Generally your software warranty doesn't really cover support, and if it does it's for a very limited time, and very limited support. Warranties are more for physical medium. For example my Dell came with a 1 year warranty, but because I ordered it with Ubuntu they would provide hardware support only.<br /><br />The point is that if you're claiming we shouldn't support our software because it is without warranty... the warranty as far as I can  tell doesn't have much to do with the software and everything to do with the medium.<br /><br />Really, the CYA is a good thing. I don't disagree with it... however, it shouldn't be used as an excuse to do nothing. It just means you can't be legally harmed if you do nothing.<div class="blogger-post-footer"><br />--<br />
+This <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.xenoterracide.com" property="cc:attributionName" rel="cc:attributionURL">Caleb Cushing</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div>

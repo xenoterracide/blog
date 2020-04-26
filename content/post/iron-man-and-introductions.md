@@ -1,0 +1,11 @@
++++
+title = "Iron Man and introductions"
+date = 2010-03-13T21:59:00Z
+updated = 2010-03-13T22:04:54Z
+tags = ["Regen2", "arch linux", "who am I", "cpan",  "perl", "aur", "Template::ShowStartStop", "Funtoo"]
+blogimport = true 
+type = "post"
++++
+
+So I've decided to "compete" in the <a href="http://www.enlightenedperl.org/ironman.html">Iron Man competition</a>.<br /><br />My name is Caleb Cushing, I'm a 25 year old, unemployed, student, living in the Greater Lansing, MI, USA, area. I've been programming perl for approximately 6 months. This includes a lot of off time, time to relearn the language from the class I took a couple years ago (and learn modern perl), learning Catalyst and DBIC, all of which is an ongoing process. I would guess I've been writing useful code for about 4 months and even that is a slow going process as I've still got a lot to learn.<br /><br />Previously, I was the tree maintainer for Funtoo, and tried spinning my own fork of Funtoo/Gentoo, it needed more devs than me to survive though. I now use <a href="http://www.archlinux.org/">Arch Linux</a>. After an arch/perl user who went by aCiD2 moved to OS X I adopted most of his perl AUR (arch user repository) packages in addition to ones I had created myself. I now have <a href="http://aur.archlinux.org/packages.php?SeB=m&K=xenoterracide">over 200 CPAN packages on AUR</a> in Arch's PKGBUILD format.<br /><br />I'm a contributer to <a href="http://search.cpan.org/dist/Catalyst-Manual/">Catalyst::Manual</a> and I created <a href="http://search.cpan.org/dist/Template-ShowStartStop/">Template::ShowStartStop</a> by forking <a href="http://search.cpan.org/dist/Template-Timer/">Template::Timer</a>.<br /><br />I'm sure I'll become more active as time goes on, and have more interesting posts than this one.<div class="blogger-post-footer"><br />--<br />
+This <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.xenoterracide.com" property="cc:attributionName" rel="cc:attributionURL">Caleb Cushing</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div>

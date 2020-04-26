@@ -1,0 +1,11 @@
++++
+title = "Bad Customer Service from T-Mobile"
+date = 2010-03-25T12:55:00Z
+updated = 2010-03-25T12:55:19Z
+tags = ["rant", "cell provider", "t-mobile", "hall of shame"]
+blogimport = true 
+type = "post"
++++
+
+So about 2 months ago I got fed up with Sprint (they suck for different reasons) and I already knew that they had better service coverage than Verizon in my area. My friend suggested T-Mobile, so I went and got setup with them for a 14 day trial period. I took the phone made some calls tried the web browser, I didn't like the blackberry itself, but that's besides the point. When I got the phone home, no service, not even outside the house, making T-Mobile worse than Verizon. I didn't want to run 10 miles into town that day, the next day we had a blizzard, so wednesday, two days later I took it back. They charged back everything and everything seemed good. Until a few weeks later when I got a $10 bill for usage. I just finally got around to dealing with customer service today. They say it's accurate, and no they can't do anything. So basically as an FYI to anyone else, don't try T-Mobile unless you already know that their service will work for you because they are going to charge you anyways. This shouldn't be, your service doesn't work for me, you shouldn't charge me to tell you that. Now if I move I probably won't look at them for a service change, had they handled this in an amicable manner I probably would have as soon as there network wasn't an issue. I'm also going to tell anyone who asks about cell provider's about it. Yes $10 isn't much, but it's the principle of me having to pay them anything after I had made it clear I wasn't sure it would work and I just wanted to see if it was an option.<div class="blogger-post-footer"><br />--<br />
+This <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.xenoterracide.com" property="cc:attributionName" rel="cc:attributionURL">Caleb Cushing</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div>

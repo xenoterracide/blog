@@ -1,0 +1,11 @@
++++
+title = "Regen2 0.9.1.0 soon"
+date = 2009-03-23T02:44:00Z
+updated = 2009-03-23T03:22:06Z
+tags = ["Regen2", "release", "versions"]
+blogimport = true 
+type = "post"
++++
+
+Last night I decided I'd be rolling out the first release of Regen2 in the first week of April.<br /><br />So as I'm sure everyone knows version are arbitrary they mean nothing... well ours are going to mean something. The first 2 numbers are the year, so 20(0.9).1.0. the Third number is the quarter, we are going to be mass stabilizing system once per quarter. I'm not sure that this will include new profiles. 4rth number is kinda arbitrary at this point, I'm not sure how/if I want to use it, opinions welcome. since releases will be 'stable' I could use 0 as kind of an alpha, first release. 1 as beta, 2 as rc, and 3 as final. I could also do a 0-alpha1, 0-beta1, etc. and when stage4's and other stuff are rolled out use the version number to denote updated non-system software. In other words I could do releases each month of say kde in stage4's but I wouldn't change system more than once a quarter.<br /><br />So far my list of packages that'll be marked stable include.<br /><br />gcc-4.3.3(maybe r1)<br />glibc-2.9_20081201-r2<br />openrc-0.4.3-r1<br />baselayout-2.0.0-r2<br />git-1.6.2.1<br />perl-5.10.0<br /><br />I'll have to spend the next few days figuring out the rest.<br /><br />I'm debating also on whether I'm locking down major or minor versions. meaning I might consider stabilizing gcc-4.3.4 in the middle of this quarter but not gcc-4.4.<br /><br />I'm open to opinions on anything. This may be a dictatorship, but I still don't mind hearing from people not me, as with enough eyes all bugs are shallow.<div class="blogger-post-footer"><br />--<br />
+This <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.xenoterracide.com" property="cc:attributionName" rel="cc:attributionURL">Caleb Cushing</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div>

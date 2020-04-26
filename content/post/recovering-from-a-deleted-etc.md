@@ -1,0 +1,10 @@
++++
+title = "Recovering from a deleted /etc"
+date = 2008-12-30T15:59:00Z
+updated = 2008-12-30T17:19:27Z
+blogimport = true 
+type = "post"
++++
+
+Last night I inadvertently deleted /etc and had to recover my system which was still running, and for my own sanity avoid downtime. Everything was still running when I realized what had happened so without logging out most things would continue to if I didn't stop them.<br /><br />I run a mix of stable and unstable. If you are on one or the other you will probably be able to simply extract /etc from a recent tarball, I tried doing this from drobbins builds but it was ineffective. After some other attempts I extracted a whole stable tarball from last weeks build. This allowed me to be able to compile with portage (which wasn't working with just /etc). I then had to systematically rebuild system, fixing problems as I came upon them, ultimately I had to rebuild gcc twice because I use -march=core2 which is not available in the current stable gcc. several packages wouldn't emerge even at this point so I had to use emerge --resume --skipfirst a couple of times. One of the bigger problem was the world file (where all packages I've added are listed) was lost. it's made things a bit more complicated that simply doing an emerge -aveDbk world once system was fixed.<br /><br />I could have easily resolved this had I been using buildpkg. instead this is taking hours to clean up and rebuilding everything to restore all lost /etc files. Fortunately I didn't lose any of my settings because I keep /etc files I modify backed up in a git repository hosted by github.<div class="blogger-post-footer"><br />--<br />
+This <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.xenoterracide.com" property="cc:attributionName" rel="cc:attributionURL">Caleb Cushing</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div>

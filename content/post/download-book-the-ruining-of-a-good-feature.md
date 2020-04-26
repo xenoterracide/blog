@@ -1,0 +1,11 @@
++++
+title = "Download Book, The Ruining of a Good Feature"
+date = 2008-12-12T13:57:00Z
+updated = 2008-12-12T14:29:11Z
+tags = ["rant", "safaribooksonline"]
+blogimport = true 
+type = "post"
++++
+
+1-3 Months ago <a href="http://safari.oreilly.com/">Safari Books</a> finally started allowing you to download full books in pdf. It used to be that you had to download chapters of books in pdf. This was annoying even if you had tokens to do it. Tokens are Safari Books way of making sure we aren't pirating en masse, you get 5 tokens a month and can only keep 3 months worth. So now we can download full books how nice? right?<br /><br />Well it would be except the only books you can download without buying more tokens are pocket references, those cost 6 tokens, so over 1 months worth. Most books are 16 tokens and I think I saw an 18 token one. I'm sorry but this is just GREEDY, I currently pay $439.99 a year for this service, isn't that enough for me to be able to download 4 books a year?<br /><br />I probably wouldn't be complaining about this if they allowed you to keep all unspent tokens, I have about 2 years worth now. I actually asked for that.<br /><br /><blockquote><br />We would like to inform you that according to Safari terms of service, we will not be able to reinstate the unused tokens.<br /></blockquote><br /><br />No, of course not, and I knew that when I asked, but it didn't hurt to ask, or point out that I've used virtually no tokens over 2 years of subscription.<br /><br />Well O'reilly since I find that this is just pure greed, I won't be renewing my subscription.<br /><br />Maybe I'm wrong? you know to think that I shouldn't have to pay extra to download a few normal books? what do you think?<div class="blogger-post-footer"><br />--<br />
+This <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.xenoterracide.com" property="cc:attributionName" rel="cc:attributionURL">Caleb Cushing</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div>

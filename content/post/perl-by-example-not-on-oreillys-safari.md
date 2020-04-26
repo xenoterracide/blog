@@ -1,0 +1,11 @@
++++
+title = "Perl by Example not on O'Reilly's Safari"
+date = 2008-04-01T18:38:00Z
+updated = 2008-12-12T14:50:09Z
+tags = ["rant", "books", "safaribooksonline"]
+blogimport = true 
+type = "post"
++++
+
+I like Safari. It's a great product that I pay ~$500 a year for. I just started a Perl class and the book is Perl by Example. Guess what it isn't on safari or at least searching for the exact title doesn't find it. I've queried the O'reilly and Prentice Hall people. I pay $500 a year, all the rest of the 'By Example' Books are there, I want my book.<br /><br />EDIT: O'Reilly's response<br /><blockquote><br />Thank you for contacting us about this. <br /><br />Please note that the books available on Safari Books Online are added to the service at the exclusive discretion of the individual publishers by their internal online content teams and according to their internal guidelines and procedures. <br /><br />Hence I have forwarded your title request to the respective online content team for consideration. Also please note that due to various resource restraints, our participating publishers may not be able to make all titles available on Safari.<br /><br />If you have any other questions, please reply to this email. We will be glad to help you in this regard.<br /><br />EDIT: It's been a couple of weeks and the teacher has given an assignment from the book. The book is still not of safari. I will have to buy it, it seems.<br /><br />EDIT: It's out now <a href="http://safari.informit.com/9780132381826">Perl by Example, 4th Editon</a><br /></blockquote><br /><br />Ah typical as usual some company has made my life harder even though I'm paying them to make it easier, given I understand the reason. But I don't have to like it.<div class="blogger-post-footer"><br />--<br />
+This <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.xenoterracide.com" property="cc:attributionName" rel="cc:attributionURL">Caleb Cushing</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div>

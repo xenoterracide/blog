@@ -1,0 +1,10 @@
++++
+title = "I have an account?"
+date = 2008-02-22T18:12:00Z
+updated = 2008-02-22T18:26:38Z
+blogimport = true 
+type = "post"
++++
+
+Most people complain, "I don't know what my username and password for site x is". I don't have that problem, because I use the username xenoterracide almost everywhere, except for anal places that provide me with usernames, like my bank or school, or don't allow that many characters in the username.<br /><br />My problem is I can't remember all the places I have an account.<br /><br />I was looking at flickr last night, needed an account to look at something. So I went to sign in with my yahoo account. which is/was xeno_terra_cide, accidentally I typed in xenoterracide, because I'm so used to it. I discovered that xenoterracide had become available since the last time I checked (when I originally opened an account it was not). So I registered it. Then I went to flickr, it asked for a flicker username so I gave it xenoterracide, it yells at me, user exists. It didn't tell me that when I tried logging in before, it told me user didn't exist and the id was available. So then I get to go about, merging accounts. That was a bit tricky, although less so than when I merged, blogger, adsense, and google accounts.<br /><br />This isn't the first time I've forgotten that I have an account someplace and won't be the last. Unfortunately I've yet to find a system for storing this. I wipe my computer and user account too often. Although that's getting rarer.<div class="blogger-post-footer"><br />--<br />
+This <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.xenoterracide.com" property="cc:attributionName" rel="cc:attributionURL">Caleb Cushing</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div>

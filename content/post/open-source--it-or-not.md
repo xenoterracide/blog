@@ -1,0 +1,11 @@
++++
+title = "Open Source  it or not?"
+date = 2008-04-18T19:34:00Z
+updated = 2008-04-18T19:57:40Z
+tags = ["Business", "Open Source"]
+blogimport = true 
+type = "post"
++++
+
+When building a new web service should you open source it or not? if you do open source it, it may make it harder to have a revenue.<br /><br />I am of course building my <nameless> product on a LAMP stack, and I'm a huge open source proponent. But if the majority of the revenue model is based around people using my site, wouldn't it hurt me to allow others to basically rebuild my site on there own?<br /><br />I am thinking that a dual license (like Trolltech's qt licensing) may be best in this case, preventing people to use the code commercially without paying for a license. But even then I wonder... part of the idea is that the product will help generate a community that will then be interested in buying 'dead tree (books)' products.<br /><br />I'm going to stop 'beating around the bush' on what the proposed product is now (even though this hypothetical question applies to other products as well).<br /><br />I'm building a 3 part product, first is a character database for PnP(like World of Darkness, and Dungeons and Dragons) RPG games, people will be able to use it to store/share there characters and NPC's. Second, will be a chat system allowing Storytellers/Game/Dungeon Masters to play online. Third is an O'Reilly Safari Clone that will allow people to read the books (and get definitions in game) online.<br /><br />I see my possible revenue's as Advertising, Library Subscription, Reselling, Support.<br /><br />What do people think? How should I license the product(s) (I may build it as 3 ultimately)?<br /><br />(Note: I am looking for partners)<div class="blogger-post-footer"><br />--<br />
+This <span xmlns:dc="http://purl.org/dc/elements/1.1/" href="http://purl.org/dc/dcmitype/Text" rel="dc:type">work</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.xenoterracide.com" property="cc:attributionName" rel="cc:attributionURL">Caleb Cushing</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/">Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</a>.</div>
