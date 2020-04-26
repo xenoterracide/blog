@@ -1,6 +1,5 @@
 languageCode = "en-us"
 title = "Caleb Cushing's Blog"
-baseURL = "https://xenoterracide.com/"
 theme = "fuji"
 PygmentsCodeFences = true
 PygmentsStyle = "manni"
