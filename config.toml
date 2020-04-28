@@ -1,5 +1,6 @@
 languageCode = "en-us"
 title = "Caleb Cushing's Blog"
+baseURL = ""
 theme = "fuji"
 PygmentsCodeFences = true
 PygmentsStyle = "manni"
