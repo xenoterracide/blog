@@ -6,9 +6,9 @@ PygmentsCodeFences = true
 PygmentsStyle = "manni"
 enableRobotsTXT = true
 googleAnalytics = "UA-21442632-1"
-copyright = "Copyright © 2008-2020 Caleb Cushing. This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/)"
+copyright = "Copyright © 2008-2021 Caleb Cushing. This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/)"
 [Params]
-    Subtitle = "Also known as XenoTerraCide"
+  Subtitle = "Also known as XenoTerraCide"
 	Author = "Caleb Cushing"
 	disqusShortname = "xenoterracide"
 	bugs = "https://bitbucket.org/xenoterracide/blog/issues"
