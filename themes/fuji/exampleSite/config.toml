@@ -1,32 +1,71 @@
 baseURL = "https://example.com"
-title = "Fuji Demo"
+title = "Hugo Theme Fuji"
+
 theme = "fuji"
 hasCJKLanguage = true
 enableEmoji = true
 enableRobotsTXT = true
-disableKinds = ["RSS", "taxonomyTerm"]
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
 
 ## Change this two to switch between different language
-## Now support: en, zh-hans, zh-hant, ja
-defaultContentLanguage = "en"
-languageCode = "en"
+languageCode = "en"  # For RSS, view https://www.rssboard.org/rss-language-codes
+defaultContentLanguage = "en"  # For HTML page, now support: en, zh-hans, zh-hant, ja, nl, pl, it
 
-summaryLength = 100 # Custom cummary length, add <!--more--> in post file to custom split point
+summaryLength = 100 # Custom summary length, add <!--more--> in post file to custom split point
 paginate = 10
 
-# googleAnalytics = "UA-000000000-0" # Set your Google Analytics UA here, or comment out to disable
+# googleAnalytics = "UA-000000000-0" # Set your Google Analytics UA here
+
+[outputFormats]
+  [outputFormats.SearchIndex]
+    isPlainText = true
+    notAlternative = true
+    mediaType = "application/json"
+    path = "/search/"
+
+[outputs]
+  home = ["HTML", "RSS", "SearchIndex"]
 
 [permalinks]
-  post = "/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
+  post = "/:section/:filename/" # Custom post links, e.g. "/:year/:month/:title/"
 
 [params]
   author = "DSRKafuU" # You can also set author in post front matter individually
-  subTitle = "This is a Sub Title"
+  subTitle = "A minimal Hugo theme."
+  defaultTheme = "auto" # default theme when first visit (auto|dark|light)
+
+  # Source URL of the website, will appear in the footer
+  sourceURL = "https://github.com/dsrkafuu/hugo-theme-fuji"
+
+  # Use CloudFlare Workers to accelerate the Google Analytics
+  # If you are using this please comment the googleAnalytics above
+  # Check https://github.com/SukkaW/cloudflare-workers-async-google-analytics for more details
+  # googleAnalyticsTid = "UA-000000000-0"
+  # googleAnalyticsRoute = "https://*.*.workers.dev/"
+
+  # Google AdSense
+  # The AdSense code will be inserted between the head tags of your site.
+  # googleAdsense = "0000000000000000"
+
+  # Word counter and read time indicator in post metadata
+  showWordCounter = true
+  showReadTime = false
+
+  # License in the footer
+  showLicenseInFooter = false
+
+  # License at the end of each post
+  showLicense = true
+  showToc = true
+
+  # Copyright
+  copyrightStartYear = "2020"
 
   # Open Graph & Twitter Card variables
   # You can also set description and images in post front matter individually
-  description = "A minimal hugo theme powered by Primer CSS."
-  images = ["img/og.png"] # This will use the image called og.png in static/img folder
+  description = "A minimal Hugo theme with nice theme color."
+  og = "/img/og.png" # This will use the image called og.png in static/img folder
 
   # Posts shown in homepage
   mainSections = ["post"]
@@ -34,47 +73,43 @@ paginate = 10
   # Bangumi image chart id
   # bgmImageChart = "000000"
 
-  # Show scroll to top button
-  scrollTop = true
-
   # License
-  license = "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)"
+  license = "CC BY-NC-SA 4.0"
   licenseLink = "http://creativecommons.org/licenses/by-nc-sa/4.0/"
 
   # Comments
   # utterances, see: https://utteranc.es/
-  # utterancesRepo = "[ENTER REPO HERE]"
+  # utterancesRepo = "*/*"
   # utterancesIssueTerm = "pathname"
-  # utterancesTheme = "github-light"
 
   # Disqus, see: https://disqus.com/admin/install/platforms/universalcode/
-  # disqusComment = false
-  # disqusShortname = "[ENTER YOUR DISQUS SHORTNAME HERE]"
+  # disqusShortname = "*********"
+  # Also use DisqusJS for accessing from Mainland China, see: https://github.com/SukkaW/DisqusJS
+  # If you want to set multiple api key, see theme's README for more details
+  # disqusJSApi = "https://*********/"
+  # disqusJSApikey = "**********"
 
-  # Custom lazyload placeholder
+  # custom lazyload placeholder
   # 16:9
-  cdnLazyPlaceholder = "https://cdn.jsdelivr.net/gh/amzrk2/poal-jsdelivr@1.1.0/lazyload/dsrca_loading_480x270.svg"
+  lazyPlaceholder = "/assets/lazyload/dsrca_loading_480x270.svg"
   # 32:9
-  cdnLazyPlaceholderRow = "https://cdn.jsdelivr.net/gh/amzrk2/poal-jsdelivr@1.1.0/lazyload/dsrca_loading_960x270.svg"
+  lazyPlaceholderRow = "/assets/lazyload/dsrca_loading_960x270.svg"
   # 8:9
-  cdnLazyPlaceholderCol = "https://cdn.jsdelivr.net/gh/amzrk2/poal-jsdelivr@1.1.0/lazyload/dsrca_loading_480x540.svg"
+  lazyPlaceholderCol = "/assets/lazyload/dsrca_loading_480x540.svg"
 
-  # enable this to fetch css & js from jsDelivr CDN
-  useCDN = true
-
-  # site global fixed mode aplayer 
-  # playerName = "..." # Audio title or name
-  # playerArtist = "..." # Audio artist
-  # playerURL = "..." # Audio URL, support aac, mp3, wav and ogg
-  # playerCover = "..." # Audio cover
+  # Let images display in full brightness under dark mode
+  # disableDarkImage = true
 
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true  # Enable user to embed HTML snippets in Markdown content
   [markup.highlight]
-    style = "monokailight"
+    codeFences = false  # Disable Hugo's code highlighter
 
   [markup.tableOfContents]
     startLevel = 2
-    endLevel = 2
+    endLevel = 3
 
 [taxonomies]
   tag = "tags"
@@ -92,14 +127,22 @@ paginate = 10
     name = "About"
     url = "/about/"
     weight = 3
+  [[menu.nav]]
+    name = "Search"
+    url = "/search/"
+    weight = 4
+  [[menu.nav]]
+    name = "RSS"
+    url = "/index.xml"
+    weight = 5
 
   [[menu.link]]
     name = "GitHub"
-    url = "https://github.com/amzrk2"
+    url = "https://github.com/dsrkafuu"
     weight = 1
   [[menu.link]]
     name = "Twitter"
-    url = "https://twitter.com/amzrk2"
+    url = "https://twitter.com/dsrkafuu"
     weight = 2
   [[menu.link]]
     name = "bilibili"

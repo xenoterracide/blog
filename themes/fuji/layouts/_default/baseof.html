@@ -1,33 +1,30 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode }}">
-{{ partial "head.html" . }}
+<html lang="{{ .Site.Language.Lang }}">
 
-<body class="d-flex flex-column h-100">
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body
+  data-theme="{{- if .Site.Params.defaultTheme -}}{{ .Site.Params.defaultTheme }}{{- else -}}auto{{- end -}}"
+  data-theme-auto='{{- if ne .Site.Params.defaultTheme "auto" -}}false{{- else -}}true{{- end -}}'
+  >
+    {{ partial "scripts-front.html" . }}
     {{ partial "header.html" . }}
 
     <main>
         <div class="container-lg clearfix">
             <!-- list -->
-            <div class="col-md-9 col-12 float-left" id="content">
+            <div class="col-12 col-md-9 float-left content">
                 {{ block "main" . }}{{ end }}
             </div>
-            <!-- sidebar -->
-            <div class="col-md-3 col-12 float-left" id="sidebar">
-                {{ partial "sidebar.html" . }}
-            </div>
-            {{ if .Site.Params.playerURL }}
-            <div id="aplayer"></div>
-            {{ end }}
-            {{ if .Site.Params.scrollTop }}
-            <div id="scroll-top">
-                <i class="fas fa-chevron-up"></i>
-            </div>
-            {{ end }}
+            {{ partial "sidebar.html" . }}
         </div>
+        {{ partial "components.html" . }}
     </main>
 
     {{ partial "footer.html" . }}
-    {{ partial "scripts.html" . }}
+    {{ partial "scripts-end.html" . }}
 </body>
 
 </html>

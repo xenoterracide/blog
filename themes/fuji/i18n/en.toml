@@ -1,5 +1,5 @@
 [sidebarToc]
-    other = "TOC"
+    other = "Table of Contents"
 
 [sidebarPages]
     other = "Pages"
@@ -23,7 +23,12 @@
     other = "No tag"
 
 [postMetaWordCount]
-    other = " words"
+    one = "{{.Count}} word"
+    other = "{{.Count}} words"
+
+[postMetaReadingTime]
+    one = "{{.Count}} minute"
+    other = "{{.Count}} minutes"
 
 [postCopyrightFront]
     other = "Unless otherwise noted, the content of this site is licensed under "
@@ -31,11 +36,8 @@
 [postCopyrightEnd]
     other = "."
 
-[postCommentLoading]
-    other = "Loading comments..."
-
-[postCommentLoadingFailed]
-    other = "Comments failed to load."
+[postComment]
+    other = "Load comments"
 
 [archivesTotalPages]
     other = "Total posts: "
@@ -43,8 +45,11 @@
 [tagsCurrentTag]
     other = "Posts with the tag {{ .Title }}: "
 
-[webpCheckerFront]
-    other = "Your browser does not currently support "
+[searchSuccess]
+    other = "[NUM] results ([TIME] ms)"
 
-[webpCheckerEnd]
-    other = " images"
+[searchNotFound]
+    other = "Results not found"
+
+[searchFailed]
+    other = "Failed to load index file"

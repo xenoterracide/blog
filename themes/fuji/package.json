@@ -1,27 +1,23 @@
 {
   "name": "hugo-theme-fuji",
-  "version": "1.2.0",
-  "description": "A minimal Hugo theme inspired by Murasaki, powered by GitHub Primer CSS.",
+  "version": "2.7.0",
+  "description": "A minimal Hugo theme with nice theme color. | 一个主题色极简 Hugo 主题。",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/amzrk2/hugo-theme-fuji.git"
+    "url": "git+https://github.com/dsrkafuu/hugo-theme-fuji.git"
   },
   "keywords": [
     "hugo",
     "theme",
-    "fuji",
-    "primer"
+    "fuji"
   ],
-  "author": "DSRKafuU <mail@amzrk2.cc> (https://amzrk2.cc/)",
-  "license": "GPL-3.0-only",
+  "author": "DSRKafuU <dsrkafuu@outlook.com> (https://dsrkafuu.su/)",
+  "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/amzrk2/hugo-theme-fuji/issues"
+    "url": "https://github.com/dsrkafuu/hugo-theme-fuji/issues"
   },
-  "homepage": "https://github.com/amzrk2/hugo-theme-fuji#readme",
-  "devDependencies": {
-    "@primer/css": "14.3.0",
-    "@fortawesome/fontawesome-free": "5.13.0",
-    "lazysizes": "5.2.0",
-    "aplayer": "1.10.1"
+  "homepage": "https://github.com/dsrkafuu/hugo-theme-fuji#readme",
+  "dependencies": {
+    "@primer/css": "17.2.1"
   }
 }

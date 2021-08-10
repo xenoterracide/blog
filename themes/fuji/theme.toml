@@ -2,14 +2,14 @@
 # See https://github.com/gohugoio/hugoThemes#themetoml for an example
 
 name = "Fuji"
-license = "GPLv3"
-licenselink = "https://github.com/amzrk2/hugo-theme-fuji/blob/master/LICENSE"
-description = "A minimal Hugo theme inspired by Murasaki, powered by GitHub Primer CSS."
-homepage = "https://github.com/amzrk2/hugo-theme-fuji/"
-tags = ["blog", "minimal", "primer"]
-features = ["responsive"]
-min_version = "0.62.1"
+license = "Apache-2.0"
+licenselink = "https://github.com/dsrkafuu/hugo-theme-fuji/blob/master/LICENSE"
+description = "A minimal Hugo theme with nice theme color."
+homepage = "https://github.com/dsrkafuu/hugo-theme-fuji/"
+tags = ["blog", "minimal", "responsive", "dark mode"]
+features = ["blog", "minimal", "responsive", "dark mode"]
+min_version = "0.74.0"
 
 [author]
-  name = "DSRKafuU(amzrk2)"
-  homepage = "https://amzrk2.cc/about/"
+  name = "DSRKafuU"
+  homepage = "https://dsrkafuu.su/"
