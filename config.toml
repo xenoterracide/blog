@@ -16,5 +16,8 @@ respectDoNotTrack = true
 	disable_sri = true
 [markup]
   [markup.highlight]
-  style = "dracula"
-  tabWidth = 2
+    lineNos = true
+    noClasses = false
+    codeFences = true
+    style = "dracula"
+    tabWidth = 2
