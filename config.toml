@@ -1,8 +1,6 @@
 languageCode = "en-us"
 title = "Caleb Cushing's Blog"
 theme = "fuji"
-PygmentsCodeFences = true
-PygmentsStyle = "Inkpot"
 enableRobotsTXT = true
 enableGitInfo = true
 copyright = "Copyright © 2008-2021 Caleb Cushing. This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/)"
@@ -16,3 +14,7 @@ respectDoNotTrack = true
 	bugs = "https://bitbucket.org/xenoterracide/blog/issues"
 	license = "https://creativecommons.org/licenses/by-nc/4.0/"
 	disable_sri = true
+[markup]
+  [markup.highlight]
+  style = "dracula"
+  tabWidth = 2
