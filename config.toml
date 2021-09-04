@@ -4,8 +4,11 @@ theme = "fuji"
 PygmentsCodeFences = true
 PygmentsStyle = "manni"
 enableRobotsTXT = true
-googleAnalytics = "UA-21442632-1"
+enableGitInfo = true
 copyright = "Copyright © 2008-2021 Caleb Cushing. This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](https://creativecommons.org/licenses/by-nc/4.0/)"
+googleAnalytics = "UA-21442632-1"
+[privacy.googleAnalytics]
+respectDoNotTrack = true
 [Params]
   Subtitle = "Also known as XenoTerraCide"
 	Author = "Caleb Cushing"
