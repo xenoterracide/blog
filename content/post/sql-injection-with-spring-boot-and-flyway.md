@@ -9,13 +9,13 @@ tags = [
 ]
 +++
 
-So this is a hard to accomplish exploit, and is really only accomplishable by first exploiting another exploit first, 
+So this is a hard to accomplish exploit, and is really only accomplishable by first exploiting another exploit first,
 or by an employee with some level of trusted access, though this employee might not normally have actual database
 access. I do believe you should be aware of it, as it leaves open an avenue you may not be thinking of.
 
 ## A sample application
 
-So the first thing we need is an application that uses [Flyway][flyway], let's just use the 
+So the first thing we need is an application that uses [Flyway][flyway], let's just use the
 [Spring Boot Flyway Sample][sbfs]. The example is semi contrived, I discovered the problem though trying to use flyway
 to create admin users for PostgreSQL.
 
@@ -40,7 +40,7 @@ Let's modify one of our placeholders to contain something a bit more nefarious.
 ```properties
 flyway.placeholders.adminfirst=', ''); DROP TABLE person; --
 ```
-Now if you run the code you'll notice the app fails to start during the `person` table being missing. Obviously you 
+Now if you run the code you'll notice the app fails to start during the `person` table being missing. Obviously you
 could do something more subtle, like add a user to the database. I can already hear your protest though, you had to
 modify a file to do this. To address that, unmodify the line back to `Caleb`, now before running the app set the
 environment variable in your shell (or however you set environment variables)
@@ -55,26 +55,26 @@ You can view the full code example [here][sample].
 ## Why it's important
 
 Ok, so in order to do this you have to have access to the environment that Flyway runs on, while migrations are running.
-That'll never happen right? Take my [AWS][aws] [Docker Cloud][dc], you can protect AWS with multifactor (2fa), and 
+That'll never happen right? Take my [AWS][aws] [Docker Cloud][dc], you can protect AWS with multifactor (2fa), and
 api credentials seem pretty secure. What about Docker Cloud? To access that control panel, which gives you access to
 start, stop and modify the environment variables of servers with a simple gui, all you need is a password. This
 reinforces my opinion that Docker doesn't care about your security. Yeah but they still need your password, sure
-so how secure is that? do you use a different one for each site? if so how are you storing them? I mean with 
+so how secure is that? do you use a different one for each site? if so how are you storing them? I mean with
 [LastPass's recent zero days][lp] can you ever really be sure? What if they're an employee that you thought was
 adequately restricted because they only have access to the cloud control panel ([25% of breaches are internal][dbir])?
-What about your container build process? is that secure? Oh and let's also consider that by default, PostgreSQL, its 
-container, Flyway, and Spring Boot, do not log the SQL executed by the connection; so how are you going to figure 
+What about your container build process? is that secure? Oh and let's also consider that by default, PostgreSQL, its
+container, Flyway, and Spring Boot, do not log the SQL executed by the connection; so how are you going to figure
 out if someone did exploit the system?
 
 Is this a practical attack? probably not, and if they have access to your environment variables there's a good chance
-you're already owned worse than this. Seriously though, how hard is it to set an environment variable? have you seen 
+you're already owned worse than this. Seriously though, how hard is it to set an environment variable? have you seen
 [ShellShock][ss]? reality is, I don't know how hard it would be to create this exploit in your system, or how many
 employees you have that could. Maybe all the employees that could already have SQL access anyways.
 
 # A better way to provision PostgreSQL users in Docker
 
 So my original [StackOverflow][so] question was trying to set up Postgres Users with flyway for my initial Docker
-container configuration. I did find a better way to do this, instead of doing it with flyway, I'm doing it with 
+container configuration. I did find a better way to do this, instead of doing it with flyway, I'm doing it with
 PostgreSQL itself. Now this is still and environment variable, and there's a whole lot of security implications to be
 had with putting security credentials into environment variables; it's not really advised.
 
@@ -100,7 +100,7 @@ psql -v ON_ERROR_STOP=1 \
 
 now by default PostgreSQL variables are just as vulernable, but unlike Flyway, you can actually quote them properly.
 
-```postgresql
+```sql
 BEGIN;
 REVOKE ALL ON DATABASE :"db" FROM PUBLIC;
 DROP SCHEMA public CASCADE;
